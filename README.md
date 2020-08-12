@@ -1,4 +1,4 @@
-# README
+# Fazendo um tema na faculdade por que ta chatin
 ## This is the README for your extension "thema"
 You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
