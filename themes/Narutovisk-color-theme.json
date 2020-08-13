@@ -3,7 +3,7 @@
 	"author": "Thomaz",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#09051b",
+		"editor.background": "#070416",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#ee855b",
@@ -19,7 +19,7 @@
 		"editorCursor.foreground": "#649fec",
 		"menu.background": "#0b0527",
 		"menu.foreground": "#e9b88b",
-		"sideBar.background": "#09051bdc",
+		"sideBar.background": "#04010ef5",
 		"statusBar.background": "#24375adc",
 		"statusBar.debuggingBackground": "#db7d4e",
 		"sideBarSectionHeader.background": "#120a36",
@@ -36,33 +36,59 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Using",
 			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				"keyword.other.using.cs",
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
 		},
 		{
-			"name": "Colors",
+			"name": "Packages",
 			"scope": [
-				"constant.other.color"
+				"entity.name.type.namespace.cs",
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#dfeeee"
+			}
+		},
+		{
+			"name": "Namespace",
+			"scope": [
+				"keyword.other.namespace.cs",
+				"source.cs",
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword.preprocessor.pragma.cs",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#f0f0f0"
+			}
+		},
+		{
+			"name": "Methods",
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#2ab2f1"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"entity.name.variable.field.cs"
+			],
+			"settings": {
+				"foreground": "#eeeaea"
 			}
 		},
 		{
@@ -73,17 +99,6 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
