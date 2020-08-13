@@ -14,6 +14,7 @@
 		// pslz4lj3o47m7tsrvr7ttp7f6wwqeop5mntobephapzoby5bmahq (token)
 		//#1A1629
 		//#070416
+		// vsce publish minor(atualiza a versao)
 		"editor.background": "#0d0d1d",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
