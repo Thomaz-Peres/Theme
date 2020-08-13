@@ -14,7 +14,7 @@
 		// pslz4lj3o47m7tsrvr7ttp7f6wwqeop5mntobephapzoby5bmahq (token)
 		//#1A1629
 		//#070416
-		"editor.background": "#070416",
+		"editor.background": "#0d0d1d",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#ee855b",
@@ -50,6 +50,9 @@
 			"name": "Using",
 			"scope": [
 				"keyword.other.using.cs",
+				"keyword.other.namespace.cs",
+				"keyword.preprocessor.pragma.cs",
+				"meta.preprocessor.cs",
 			],
 			"settings": {
 				"foreground": "#cc75f5"
@@ -65,22 +68,13 @@
 			}
 		},
 		{
-			"name": "Namespace",
-			"scope": [
-				"keyword.other.namespace.cs",
-			],
-			"settings": {
-				"foreground": "#64b3fd"
-			}
-		},
-		{
 			"name": "Voids, classes, variables, new, await",
 			"scope": [
 				"keyword.type.cs",
 				"keyword.other.class.cs",
 				"keyword.other.new.cs",
 				"keyword.other.var.cs",
-				"keyword.other.await.cs"
+				"keyword.other.await.cs",
 			],
 			"settings": {
 				"foreground": "#ff71a0"
@@ -117,7 +111,7 @@
 				"variable.other.readwrite.cs"
 			],
 			"settings": {
-				"foreground": "#8ec3ee"
+				"foreground": "#55acf3"
 			}
 		},
 		{
@@ -128,7 +122,7 @@
 				"entity.name.variable.property.cs",
 			],
 			"settings": {
-				"foreground": "#00c1f1"
+				"foreground": "#d350cc"
 			}
 		},
 		{
@@ -146,7 +140,12 @@
 			"scope": [
 				"comment.line.double-slash.cs",
 				"comment.block.cs",
-				"punctuation.definition.comment.cs"
+				"punctuation.definition.comment.json.comments",
+				"comment.line.double-slash.js",
+				"meta.structure.array.json.comments",
+				"meta.structure.dictionary.value.json.comments",
+				"meta.structure.dictionary.json.comments",
+				"source.json.comments"
 			],
 			"settings": {
 				"foreground": "#414852"
