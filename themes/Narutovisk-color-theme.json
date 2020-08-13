@@ -1,8 +1,19 @@
 {
-	"name": "Narutovisk",
+	"name": "Dark do dark",
+	"displayName": "Dark",
+	"version": "0.0.1",
+	"publisher": "Thomaz",
+	"description": "Tema que fui fazendo ate me agradar, porém ainda nao ta agradavel",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Thomaz-Peres/Theme"
+	},
 	"author": "Thomaz",
 	"type": "dark",
 	"colors": {
+		// pslz4lj3o47m7tsrvr7ttp7f6wwqeop5mntobephapzoby5bmahq (token)
+		//#1A1629
+		//#070416
 		"editor.background": "#070416",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
@@ -41,7 +52,7 @@
 				"keyword.other.using.cs",
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#cc75f5"
 			}
 		},
 		{
@@ -50,45 +61,95 @@
 				"entity.name.type.namespace.cs",
 			],
 			"settings": {
-				"foreground": "#dfeeee"
+				"foreground": "#f0608d"
 			}
 		},
 		{
 			"name": "Namespace",
 			"scope": [
 				"keyword.other.namespace.cs",
-				"source.cs",
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#64b3fd"
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Voids, classes, variables, new, await",
 			"scope": [
-				"keyword.preprocessor.pragma.cs",
-				"storage.type"
+				"keyword.type.cs",
+				"keyword.other.class.cs",
+				"keyword.other.new.cs",
+				"keyword.other.var.cs",
+				"keyword.other.await.cs"
 			],
 			"settings": {
-				"foreground": "#f0f0f0"
+				"foreground": "#ff71a0"
 			}
 		},
 		{
-			"name": "Methods",
+			"name": "Public, private etc, override, partial, etc",
 			"scope": [
-				"entity.name.function.cs"
+				"storage.modifier.cs",
 			],
 			"settings": {
-				"foreground": "#2ab2f1"
+				"foreground": "#00faa7"
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Não sei o nome, mas filhos, etc",
 			"scope": [
-				"entity.name.variable.field.cs"
+				"entity.name.type.class.cs",
+				"storage.type",
+				"variable.other.object.cs",
+				"keyword.control.flow.return.cs"
 			],
 			"settings": {
-				"foreground": "#eeeaea"
+				"foreground": "#f8aa35"
+			}
+		},
+		{
+			"name": "Methods name",
+			"scope": [
+				"entity.name.function.cs",
+				// "keyword.preprocessor.pragma.cs",
+				"entity.name.variable.local.cs",
+				"variable.other.object.property.cs",
+				"variable.other.readwrite.cs"
+			],
+			"settings": {
+				"foreground": "#8ec3ee"
+			}
+		},
+		{
+			"name": "parameters",
+			"scope": [
+				"entity.name.variable.field.cs",
+				"entity.name.variable.parameter.cs",
+				"entity.name.variable.property.cs",
+			],
+			"settings": {
+				"foreground": "#00c1f1"
+			}
+		},
+		{
+			"name": "Bolleans, true and false",
+			"scope": [
+				"constant.language.boolean.true.cs",
+				"constant.language.boolean.false.cs"
+			],
+			"settings": {
+				"foreground": "#5653ff"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment.line.double-slash.cs",
+				"comment.block.cs",
+				"punctuation.definition.comment.cs"
+			],
+			"settings": {
+				"foreground": "#414852"
 			}
 		},
 		{

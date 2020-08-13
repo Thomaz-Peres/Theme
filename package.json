@@ -1,12 +1,28 @@
 {
-    "name": "thema",
-    "displayName": "Narutovisk",
-    "description": "copias",
+    "name": "preparing",
+    "displayName": "Dark",
+    "description": "Tema que fui fazendo ate me agradar, porém ainda nao ta agradavel",
     "version": "0.0.1",
+    "publisher": "Thomaz",
+    "author": "Thomaz",
+    "icon": "logo.png",
+    "galleryBanner": {
+        "color": "090b10",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Thomaz-Peres/Theme"
+    },
     "engines": {
         "vscode": "^1.47.0"
     },
     "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "VSCode",
         "Themes"
     ],
     "contributes": {
