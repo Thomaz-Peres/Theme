@@ -1,15 +1,22 @@
 {
 	"name": "Dark do dark",
 	"displayName": "Dark",
-	"version": "0.0.1",
+	"version": "1.1.2",
 	"publisher": "Thomaz",
-	"description": "Tema que fui fazendo ate me agradar, porém ainda nao ta agradavel",
+	"description": "Theme designed in a naruto style, but darker",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Thomaz-Peres/Theme"
 	},
 	"author": "Thomaz",
 	"type": "dark",
+	"keywords": [
+		"naruto",
+		"dark",
+		"themes",
+		"theme",
+		"color-theme"
+	],
 	"colors": {
 		// pslz4lj3o47m7tsrvr7ttp7f6wwqeop5mntobephapzoby5bmahq (token)
 		//#1A1629
@@ -20,7 +27,7 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#ee855b",
 		"activityBar.activeBackground": "#130941",
-		"activityBar.background": "#09051b",
+		"activityBar.background": "#161620",
 		"activityBar.foreground": "#f85d03",
 		"tab.activeBackground": "#0f082e",
 		"tab.activeBorder": "#00aeff",

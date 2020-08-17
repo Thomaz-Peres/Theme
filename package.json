@@ -1,8 +1,8 @@
 {
-    "name": "preparing",
+    "name": "dark",
     "displayName": "Dark",
-    "description": "Tema que fui fazendo ate me agradar, porém ainda nao ta agradavel",
-    "version": "1.1.0",
+    "description": "Theme designed in a naruto style, but more darker",
+    "version": "1.1.2",
     "publisher": "Thomaz",
     "author": "Thomaz",
     "icon": "logo.png",
@@ -23,12 +23,17 @@
     ],
     "keywords": [
         "VSCode",
-        "Themes"
+        "Themes",
+        "naruto",
+        "dark",
+        "themes",
+        "theme",
+        "color-theme"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Narutovisk",
+                "label": "NarutoDark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Narutovisk-color-theme.json"
             }
