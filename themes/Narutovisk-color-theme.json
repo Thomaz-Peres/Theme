@@ -1,7 +1,7 @@
 {
 	"name": "Dark do dark",
 	"displayName": "Dark",
-	"version": "1.1.2",
+	"version": "1.2.2",
 	"publisher": "Thomaz",
 	"description": "Theme designed in a naruto style, but darker",
 	"repository": {
@@ -15,13 +15,16 @@
 		"dark",
 		"themes",
 		"theme",
-		"color-theme"
+		"color-theme",
+		"c#",
+		"csharp"
 	],
 	"colors": {
 		// pslz4lj3o47m7tsrvr7ttp7f6wwqeop5mntobephapzoby5bmahq (token)
 		//#1A1629
 		//#070416
 		// vsce publish minor(atualiza a versao)
+		// vsce pulish (tbm atualiza)
 		"editor.background": "#0d0d1d",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
@@ -153,10 +156,154 @@
 				"meta.structure.array.json.comments",
 				"meta.structure.dictionary.value.json.comments",
 				"meta.structure.dictionary.json.comments",
-				"source.json.comments"
+				"source.json.comments",
+				"comment.block.css",
+				"meta.property-list.css"
 			],
 			"settings": {
-				"foreground": "#414852"
+				"foreground": "#48515e"
+			}
+		},
+		{
+			"name": "Variables JS",
+			"scope": [
+				"variable.other.constant.js",
+				"meta.definition.variable.js",
+				"meta.var-single-variable.expr.js",
+				"meta.var.expr.js"
+			],
+			"settings": {
+				"foreground": "#ff71a0"
+			}
+		},
+		{
+			"name": "Variables JS",
+			"scope": [
+				"variable.other.readwrite.js"
+			],
+			"settings": {
+				"foreground": "#ff71a0"
+			}
+		},
+		{
+			"name": "Functions JS",
+			"scope": [
+				"entity.name.function.js",
+			],
+			"settings": {
+				"foreground": "#2ff76b"
+			}
+		},
+		{
+			"name": "Nap sei oq é no JS",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object.member.js",
+				"meta.objectliteral.js"
+			],
+			"settings": {
+				"foreground": "#00faa7"
+			}
+		},
+		{
+			"name": "Booleans JS",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js"
+			],
+			"settings": {
+				"foreground": "#5653ff"
+			}
+		},
+		{
+			"name": "Também nao sei, mas é JS",
+			"scope": [
+				"variable.parameter.js",
+				"meta.parameters.js",
+				"meta.arrow.js"
+			],
+			"settings": {
+				"foreground": "#faa84b"
+			}
+		},
+		{
+			"name": "HTML",
+			"scope": [
+				"entity.other.njk.delimiter.tag",
+				"variable.other.njk",
+			],
+			"settings": {
+				"foreground": "#faa84b"
+			}
+		},
+		{
+			"name": "CSS IDs e os que vem depois dos .",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"meta.selector.css",
+				"entity.other.attribute-name.class.css",
+				"meta.selector.css"
+			],
+			"settings": {
+				"foreground": "#5fe953"
+			}
+		},
+		{
+			"name": "CSS Names tags",
+			"scope": [
+				"entity.name.tag.css",
+				"meta.selector.css"
+			],
+			"settings": {
+				"foreground": "#faa84b"
+			}
+		},
+		{
+			"name": "CSS variaveis",
+			"scope": [
+				"support.type.property-name.css",
+				"meta.property-name.css",
+				"meta.property-list.css",
+				"support.type.vendored.property-name.css"
+			],
+			"settings": {
+				"foreground": "#7d8eac"
+			}
+		},
+		{
+			"name": "CSS numeros, nomes que vai seguir depois dos :",
+			"scope": [
+				"constant.numeric.css",
+				"support.constant.property-value.css",
+				"support.constant.color.w3c-standard-color-name.css"
+			],
+			"settings": {
+				"foreground": "#00d9ff"
+			}
+		},
+		{
+			"name": "CSS argumentos de variaveis",
+			"scope": [
+				"variable.argument.css",
+				"meta.function.variable.css"
+			],
+			"settings": {
+				"foreground": "#f5d2a5"
+			}
+		},
+		{
+			"name": "CSS px % e essas coisas ai",
+			"scope": [
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.percentage.css",
+				"keyword.other.unit.vh.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.ms.css",
+			],
+			"settings": {
+				"foreground": "#ff67f2"
 			}
 		},
 		{
