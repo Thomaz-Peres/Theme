@@ -63,7 +63,7 @@
 				"keyword.other.using.cs",
 				"keyword.other.namespace.cs",
 				"keyword.preprocessor.pragma.cs",
-				"meta.preprocessor.cs",
+				"meta.preprocessor.cs"
 			],
 			"settings": {
 				"foreground": "#cc75f5"
@@ -73,6 +73,7 @@
 			"name": "Packages",
 			"scope": [
 				"entity.name.type.namespace.cs",
+				"entity.name.function.python"
 			],
 			"settings": {
 				"foreground": "#f0608d"
@@ -85,7 +86,7 @@
 				"keyword.other.class.cs",
 				"keyword.other.new.cs",
 				"keyword.other.var.cs",
-				"keyword.other.await.cs",
+				"keyword.other.await.cs"
 			],
 			"settings": {
 				"foreground": "#fd4c87"
@@ -94,7 +95,7 @@
 		{
 			"name": "Public, private etc, override, partial, etc",
 			"scope": [
-				"storage.modifier.cs",
+				"storage.modifier.cs"
 			],
 			"settings": {
 				"foreground": "#00faa7"
@@ -106,7 +107,8 @@
 				"entity.name.type.class.cs",
 				"storage.type",
 				"variable.other.object.cs",
-				"keyword.control.flow.return.cs"
+				"keyword.control.flow.return.cs",
+				"support.type.exception.python"
 			],
 			"settings": {
 				"foreground": "#f8aa35"
@@ -130,7 +132,7 @@
 			"scope": [
 				"entity.name.variable.field.cs",
 				"entity.name.variable.parameter.cs",
-				"entity.name.variable.property.cs",
+				"entity.name.variable.property.cs"
 			],
 			"settings": {
 				"foreground": "#d350cc"
@@ -159,7 +161,8 @@
 				"source.json.comments",
 				"comment.block.css",
 				"comment.block.html",
-				"meta.property-list.css"
+				"meta.property-list.css",
+				"comment.line.number-sign.python"
 			],
 			"settings": {
 				"foreground": "#48515e"
@@ -171,7 +174,9 @@
 				"variable.other.constant.js",
 				"meta.definition.variable.js",
 				"meta.var-single-variable.expr.js",
-				"meta.var.expr.js"
+				"meta.var.expr.js",
+				"support.variable.magic.python",
+				"meta.attribute.python"
 			],
 			"settings": {
 				"foreground": "#ff91de"
@@ -189,7 +194,7 @@
 		{
 			"name": "Functions JS",
 			"scope": [
-				"entity.name.function.js",
+				"entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#2ff76b"
@@ -221,7 +226,8 @@
 			"scope": [
 				"variable.parameter.js",
 				"meta.parameters.js",
-				"meta.arrow.js"
+				"meta.arrow.js",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"foreground": "#faa84b"
@@ -231,7 +237,7 @@
 			"name": "HTML",
 			"scope": [
 				"entity.other.njk.delimiter.tag",
-				"variable.other.njk",
+				"variable.other.njk"
 			],
 			"settings": {
 				"foreground": "#faa84b"
@@ -301,7 +307,7 @@
 				"keyword.other.unit.vh.css",
 				"keyword.other.unit.rem.css",
 				"keyword.other.unit.em.css",
-				"keyword.other.unit.ms.css",
+				"keyword.other.unit.ms.css"
 			],
 			"settings": {
 				"foreground": "#ff67f2"
@@ -374,7 +380,10 @@
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+				"constant.numeric.dec.python",
+				"meta.function-call.arguments.python",
+				"meta.indexed-name.python"
 			],
 			"settings": {
 				"foreground": "#fc626a"
@@ -390,7 +399,8 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"meta.item-access.arguments.python"
 			],
 			"settings": {
 				"foreground": "#F78C6C"
@@ -421,7 +431,8 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.function-call.generic.python"
 			],
 			"settings": {
 				"foreground": "#00b7ff"
@@ -455,7 +466,8 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
+				"keyword.control.import.python"
 			],
 			"settings": {
 				"foreground": "#FF5370"
