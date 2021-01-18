@@ -22,3 +22,17 @@
 ## To contribute 
 
 - Open a Issue or a Pull Request
+
+
+## Donations
+
+I do it all for free
+But if my theme helped you in any way and you want to buy me a coffee, you can use my QRCode PICPAY below. Any value is welcome.
+
+### **BR**
+Eu faço tudo isso de graça mas se o meu tema o ajudou de alguma forma e você quer me comprar um café, você pode usar meu QRCode PICPAY abaixo. Qualquer valor é bem-vindo.
+
+https://app.picpay.com/user/thomaz.peres
+<div style="text-align: center;">
+ <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="300px">
+</div>
