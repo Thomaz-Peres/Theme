@@ -36,3 +36,6 @@ https://app.picpay.com/user/thomaz.peres
 <div style="text-align: center;">
  <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="300px">
 </div>
+
+# License
+[MIT License](./LICENSE) © Dark Theme
