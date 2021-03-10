@@ -1,4 +1,6 @@
 # The theme
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items?itemName=Thomaz.preparing)
+[![PicPay](https://img.shields.io/static/v1?style=for-the-badge&message=PicPay&color=222222&logo=PicPay&logoColor=21C25E&label=)](https://app.picpay.com/user/thomaz.peres)
 
 ![image](https://user-images.githubusercontent.com/58439854/90839292-86a1b700-e32d-11ea-893b-20472372466b.png)
 
@@ -21,7 +23,7 @@
 
 ## To contribute 
 
-- Open a Issue or a Pull Request
+- Open a Issue or a Pull Request [here](https://github.com/Thomaz-Peres/Theme)
 
 
 ## Donations
@@ -34,5 +36,5 @@ Eu faço tudo isso de graça mas se o meu tema o ajudou de alguma forma e você 
 
 https://app.picpay.com/user/thomaz.peres
 <div style="text-align: center;">
- <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="300px">
+ <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="250">
 </div>
