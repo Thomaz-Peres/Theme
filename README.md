@@ -1,6 +1,6 @@
 # The theme
 [![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items?itemName=Thomaz.preparing)
-[![PicPay](https://img.shields.io/static/v1?style=for-the-badge&message=PicPay&color=222222&logo=PicPay&logoColor=21C25E&label=)](https://app.picpay.com/user/thomaz.peres)
+[![PicPay](https://img.shields.io/static/v1?style=for-the-badge&message=PicPay&color=222222&logo=PicPay&logoColor=21C25E&label=)](https://app.picpay.com/user/thomaz.peres) 
 
 ![image](https://user-images.githubusercontent.com/58439854/90839292-86a1b700-e32d-11ea-893b-20472372466b.png)
 
