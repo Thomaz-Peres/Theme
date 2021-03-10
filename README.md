@@ -22,13 +22,10 @@ Eu faço tudo isso de graça mas se o meu tema o ajudou de alguma forma e você 
 
 https://app.picpay.com/user/thomaz.peres
 <div style="text-align: center;">
-<<<<<<< HEAD
+
  <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="250">
-</div>
-=======
- <img src="https://user-images.githubusercontent.com/58439854/104861724-c0dca800-590f-11eb-866e-2cb4e6fdadad.png" width="300px">
 </div>
 
 # License
 [MIT License](./LICENSE) © Dark Theme
->>>>>>> 8484a366495cc42b3faae9c070e9b25e5a700761
+
