@@ -95,7 +95,8 @@
 		{
 			"name": "Public, private etc, override, partial, etc",
 			"scope": [
-				"storage.modifier.cs"
+				"storage.modifier.cs",
+				"storage.modifier.ts"
 			],
 			"settings": {
 				"foreground": "#00faa7"
@@ -108,7 +109,8 @@
 				"storage.type",
 				"variable.other.object.cs",
 				"keyword.control.flow.return.cs",
-				"support.type.exception.python"
+				"support.type.exception.python",
+				"support.type.primitive.ts"
 			],
 			"settings": {
 				"foreground": "#f8aa35"
@@ -121,7 +123,11 @@
 				// "keyword.preprocessor.pragma.cs",
 				"entity.name.variable.local.cs",
 				"variable.other.object.property.cs",
-				"variable.other.readwrite.cs"
+				"variable.other.readwrite.cs",
+				"keyword.control.import.ts",
+				"keyword.control.from.ts",
+				"keyword.control.import.js",
+				"keyword.control.from.js"
 			],
 			"settings": {
 				"foreground": "#55acf3"
@@ -162,7 +168,15 @@
 				"comment.block.css",
 				"comment.block.html",
 				"meta.property-list.css",
-				"comment.line.number-sign.python"
+				"comment.line.number-sign.python",
+				"punctuation.definition.comment.cs",
+				"comment.block.documentation.cs",
+				"punctuation.definition.comment.ts",
+				"comment.line.double-slash.ts",
+				"comment.line.scss",
+				"comment.block.ts",
+				"comment.block.scss",
+				"comment.block.documentation.ts"
 			],
 			"settings": {
 				"foreground": "#48515e"
@@ -188,7 +202,7 @@
 				"variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#5582ff"
+				"foreground": "#4979fc"
 			}
 		},
 		{
@@ -227,7 +241,11 @@
 				"variable.parameter.js",
 				"meta.parameters.js",
 				"meta.arrow.js",
-				"constant.other.caps.python"
+				"constant.other.caps.python",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.alias.ts",
+				"variable.other.constant.ts",
+				"variable.other.readwrite.alias.js"
 			],
 			"settings": {
 				"foreground": "#faa84b"
@@ -307,7 +325,8 @@
 				"keyword.other.unit.vh.css",
 				"keyword.other.unit.rem.css",
 				"keyword.other.unit.em.css",
-				"keyword.other.unit.ms.css"
+				"keyword.other.unit.ms.css",
+				"keyword.control.export.ts"
 			],
 			"settings": {
 				"foreground": "#ff67f2"
@@ -337,7 +356,9 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.operator.new.ts",
+				"meta.object-literal.key.ts"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -365,6 +386,15 @@
 			],
 			"settings": {
 				"foreground": "#95b1ec"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function.ts",
+			],
+			"settings": {
+				"foreground": "#709eff"
 			}
 		},
 		{
@@ -432,7 +462,8 @@
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
-				"meta.function-call.generic.python"
+				"meta.function-call.generic.python",
+				"variable.object.property.ts"
 			],
 			"settings": {
 				"foreground": "#00b7ff"
@@ -455,7 +486,7 @@
 				"source.scss support.type.property-name",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"source.postcss support.type.property-name",
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
