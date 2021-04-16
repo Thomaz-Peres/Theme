@@ -1,7 +1,7 @@
 {
 	"name": "Dark do dark",
 	"displayName": "Dark",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"publisher": "Thomaz",
 	"description": "Theme designed in a naruto style, but darker",
 	"repository": {
@@ -20,7 +20,7 @@
 		"csharp"
 	],
 	"colors": {
-		// m7au2gs3u5tabpzqy67q3y5jmypnnbllziuo4ll6gpuuvqd43uy q (token)
+		// 7vcip4qivdo6pbpmb5onn4543zta5io76yqydqpsqdxft7qkzy4a (token)
 		//#1A1629
 		//#070416
 		// vsce publish minor(atualiza a versao)
