@@ -1,4 +1,5 @@
 node_modules/
-/themes/
+./themes/
 /tests/
 bin/
+vsc-extension-quickstart
