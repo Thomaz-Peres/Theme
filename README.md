@@ -1,5 +1,4 @@
 # The theme
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onelight.svg)](https://marketplace.visualstudio.com/items?itemName=Thomaz.preparing)
 [![PicPay](https://img.shields.io/static/v1?style=for-the-badge&message=PicPay&color=222222&logo=PicPay&logoColor=21C25E&label=)](https://app.picpay.com/user/thomaz.peres) 
 [![PayPal](https://img.shields.io/static/v1?style=for-the-badge&message=PayPal&color=00457C&logo=PayPal&logoColor=FFFFFF&label=)](https://www.paypal.com/donate?business=Q9PD9VE85M9HW&currency_code=BRL)
 

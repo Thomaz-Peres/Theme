@@ -1,7 +1,7 @@
 {
 	"name": "Dark do dark",
 	"displayName": "Dark",
-	"version": "1.5.1",
+	"version": "1.7.0",
 	"publisher": "Thomaz",
 	"description": "Theme designed in a naruto style, but darker",
 	"repository": {
@@ -20,7 +20,6 @@
 		"csharp"
 	],
 	"colors": {
-		// 7vcip4qivdo6pbpmb5onn4543zta5io76yqydqpsqdxft7qkzy4a (token)
 		//#1A1629
 		//#070416
 		// vsce publish minor(atualiza a versao)
@@ -86,7 +85,7 @@
 				"keyword.other.class.cs",
 				"keyword.other.new.cs",
 				"keyword.other.var.cs",
-				"keyword.other.await.cs"
+				"keyword.other.await.cs",
 			],
 			"settings": {
 				"foreground": "#fd4c87"
@@ -176,7 +175,9 @@
 				"comment.line.scss",
 				"comment.block.ts",
 				"comment.block.scss",
-				"comment.block.documentation.ts"
+				"comment.block.documentation.ts",
+				"comment.line.double-slash.tsx",
+				"comment.block.tsx"
 			],
 			"settings": {
 				"foreground": "#48515e"
@@ -430,7 +431,8 @@
 				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other",
-				"meta.item-access.arguments.python"
+				"meta.item-access.arguments.python",
+				""
 			],
 			"settings": {
 				"foreground": "#F78C6C"
@@ -475,7 +477,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#92a0df"
 			}
 		},
 		{
