@@ -1,5 +1,3 @@
 node_modules/
-/themes/
 /tests/
 bin/
-vsc-extension-quickstart

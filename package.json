@@ -6,6 +6,7 @@
     "publisher": "Thomaz",
     "author": "Thomaz",
     "icon": "logo.png",
+    "license": "MIT",
     "galleryBanner": {
         "color": "090b10",
         "theme": "dark"
